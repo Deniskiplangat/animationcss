@@ -1,0 +1,27 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.cube{
+    width: 200px;
+    height: 200px;
+    
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 300px;
+}
+.face{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    box-sizing: border-box;
+    
+    
+}
+.front{
+    top: 0;
+    right: 250px;
+    transform: matrix(ro);
+    transform: rotateY(180deg);
+    background-color: rgba(12,34,65,0.2);
+}
